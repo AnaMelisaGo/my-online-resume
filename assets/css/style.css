@@ -2,10 +2,11 @@
 
 /* ------------------------------------------------- CI dec hackton */
 :root {
-    --melisa-blue: #007cb9;
-    --melisa-purple: #9a47cb;
+    --melisa-blue: #7dace4;
+    --melisa-purple: #8971d0;
     --melisa-coral: #f35c6e;
-    --melisa-orange: #ffa87b;
+    --melisa-orange: #ec7263;
+    --melisa-green: #adf7d1;
 }
 
 /* ------------------------------------------------- Heading colours */
@@ -13,6 +14,23 @@
     background-color: var(--melisa-purple);
 }
 
+.ui-menu-color-home {
+    background-color: var(--melisa-blue);
+}
+
+.ui-menu-color-resume {
+    background-color: var(--melisa-coral);
+}
+
+.ui-menu-color-contact {
+    background-color: var(--melisa-orange);
+}
+
+.ui-menu-color-download {
+    background-color: var(--melisa-green);
+}
+
+/* ------------------------------------------------- Heading and logo */
 header {
     margin: 0;
 }
@@ -20,8 +38,6 @@ header {
 .heading {
     margin-left: 50px;
 }
-
-/* ------------------------------------------------- Logo */
 
 .logo {
     background: url("../images/ana-melisa-emoji.jpg");
@@ -50,4 +66,18 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+/* ------------------------------------------------- Menu bar */
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
