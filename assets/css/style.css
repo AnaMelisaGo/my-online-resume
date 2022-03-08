@@ -2,11 +2,11 @@
 
 /* ------------------------------------------------- CI dec hackton */
 :root {
-    --melisa-blue: #7dace4;
+    --melisa-blue: #2098D1;
     --melisa-purple: #8971d0;
     --melisa-coral: #f35c6e;
     --melisa-orange: #ec7263;
-    --melisa-green: #adf7d1;
+    --melisa-green: #63cf97;
 }
 
 /* ------------------------------------------------- Heading colours */
@@ -73,6 +73,10 @@ header {
     margin: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 .menucontainer {
     font-size: 0;
 }
@@ -111,4 +115,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
 }
