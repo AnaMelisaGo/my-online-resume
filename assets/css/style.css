@@ -3,15 +3,39 @@
 /* ------------------------------------------------- CI dec hackton */
 :root {
     --melisa-blue: #2098D1;
-    --melisa-purple: #8971d0;
+    --melisa-purple: #4C257D;
     --melisa-coral: #f35c6e;
-    --melisa-orange: #ec7263;
+    --melisa-orange: #ffa87b;
+    --melisa-dark-orange: #ec7263;
     --melisa-green: #63cf97;
+    --melisa-lpurple: #8971d0;
+}
+
+/* ------------------------------------------------- Special paddings/magins/text */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* ------------------------------------------------- Heading colours */
 .bg-color-name-title {
-    background-color: var(--melisa-purple);
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);;
 }
 
 .ui-menu-color-home {
@@ -117,8 +141,17 @@ header {
     letter-spacing: 2px;
 }
 
-
+/* ------------------------------------------------- Hover.css */
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/* ------------------------------------------------- Footer */
+footer {
+    background-color: var(--melisa-purple);
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
