@@ -20,10 +20,6 @@ h4 {
     margin: 0;
 }
 
-h3 {
-    color: var(--melisa-blue);
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -50,7 +46,7 @@ h3 {
 
 .section-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -223,4 +219,14 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ------------------------------------------------- Three Reasons */
+.three-reasons-icon {
+    font-size: 26px;
+    color: var(--melisa-pink);
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
