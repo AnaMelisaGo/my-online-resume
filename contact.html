@@ -33,15 +33,15 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-home"
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-home"
                                         aria-hidden="true"></i></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap"
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap"
                                         aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-comment-alt"
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fas fa-comment-alt"
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
@@ -55,9 +55,28 @@
         </div>
     </header>
 
-    <!-- Section1 -->
-    <section>
-
+    <!-- Contact Form -->
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <!-- heading -->
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
+                <!-- form -->
+                <div class="center-form">
+                    <form action="#" method="post">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
+                        <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control" placeholder="Project description"></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
