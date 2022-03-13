@@ -309,7 +309,7 @@ footer {
     padding: 2em 2em 0 2em;
     position: relative;
     color: var(--melisa-d-white);
-    border-left: 1px solid;
+    border-left: 2px solid;
 }
 
 .timeline-item p {
@@ -343,6 +343,7 @@ footer {
 
 .history-items {
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 /* ------------------------------------------------- Contact Form */
