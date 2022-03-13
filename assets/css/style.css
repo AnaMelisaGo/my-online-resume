@@ -44,6 +44,7 @@ h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -56,8 +57,16 @@ h4 {
     background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .bg-color-personal-info {
     background-color: #f6effd;
+}
+
+.bg-color-work-history {
+    background-color: var(--melisa-coral);
 }
 
 .ui-menu-color-home {
@@ -74,10 +83,6 @@ h4 {
 
 .ui-menu-color-download {
     background-color: var(--melisa-green);
-}
-
-.bg-color-three-reasons {
-    background-color: #fff;
 }
 
 /* ------------------------------------------------- Heading and logo */
@@ -280,11 +285,57 @@ footer {
     position: absolute;
     left: 0;
     font-weight: 400;
-    padding: 3px 30px 4px 10px;
+    padding: 5px 30px 2px 10px;
     color: var(--melisa-d-white);
     background-color: rgba(25,25,25,0.2);
 }
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ------------------------------------------------- Work History */
+.history-heading {
+    color: var(--melisa-d-white);
+    margin-bottom: 20px;
+}
+
+.timeline-item {
+    padding: 2em 2em 0 2em;
+    position: relative;
+    color: var(--melisa-d-white);
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 1.3em;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    content: '';
+    background-color: var(--melisa-lpurple);
+    position: absolute;
+    left: -6px;
+    top: 1.3em;
+    display: block;
+}
+
+.history-items {
+    margin-bottom: 40px;
 }
