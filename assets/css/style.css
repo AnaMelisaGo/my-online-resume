@@ -367,9 +367,14 @@ footer {
 }
 
 .center-form {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0 auto;
-    max-width:70%;
+    max-width: 70%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 button[type="submit"] {
@@ -391,14 +396,7 @@ div#map {
 /* ------------------------------------------------- Media queries */
 @media(min-width: 992px) {
     .center-form {
-        padding-top: 30px;
         margin: 0 auto;
-        max-width:50%;
-    }
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
+        max-width: 35%;
     }
 }
