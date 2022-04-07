@@ -45,12 +45,13 @@ function repoInformationHTML(repos) {
 
 }
 
-function fetchGitHubInformation() {
+function fetchGitHubInformation(event) {
     /**
      * To fetch data from GitHub API
      * 
      */
-
+    $('#gh-user-data').html('');
+    $('#gh-repo-data').html('');
     let username = $('#gh-username').val();
     
     // If no input in username: a message prompts below
@@ -93,6 +94,8 @@ function fetchGitHubInformation() {
             }
         });
 }
+
+$(document).ready(fetchGitHubInformation);
 
 /**
  * else if (errorResponse.status === 403) {
