@@ -72,9 +72,9 @@ h4 {
     background-color: var(--melisa-coral);
 }
 
-.bg-color-contact {
+/* .bg-color-contact {
     background-color: #f7ece7;
-}
+} */
 
 .ui-menu-color-home {
     background-color: var(--melisa-blue);
@@ -358,6 +358,13 @@ footer {
 }
 
 /* ------------------------------------------------- Contact Form */
+.bg-color-contact {
+    background: url('../images/grey.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
 
 .contact-heading {
     font-family: 'Exo', sans-serif;

@@ -6,6 +6,7 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
+            alert("Message sent! I'll get in touch with you as soon as possible. Thank you!")
             console.log('Success!', response);
         }, function(errorResponse) {
             console.log('FAILED', errorResponse);
