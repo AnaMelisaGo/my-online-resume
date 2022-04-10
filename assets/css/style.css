@@ -395,6 +395,10 @@ button[type="submit"] {
     margin: 10px 0;
 }
 
+#conf-msg p {
+    margin: 0;
+}
+
 /* ------------------------------------------------- Maps */
 div#map {
     min-height: 360px;

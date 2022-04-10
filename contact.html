@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <title>Ana Melisa Online Resume</title>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -78,6 +80,7 @@
                 <!-- heading -->
                 <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                 <h5 class="uppercase text-center">Let's work together!</h5>
+                <div id="conf-msg" class="text-center"></div>
                 <!-- form -->
                 <div class="center-form">
                     <form onsubmit="return sendMail(this)">
@@ -87,7 +90,7 @@
                             placeholder="Project description"></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <button type="submit" id="submit" class="btn btn-secondary">Send Project Request</button>
                             </div>
                         </div>
                     </form>
